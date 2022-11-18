@@ -27,18 +27,16 @@
       Switch4→Swithc2→Switch1→Switch3 ルートパスコスト:138
 
       ルートパスコースを考慮し書くSwitchのポートの役割を見ていくと
-      ・Switch1
-        (Switch1からSwitch4)側 → RP
-        (Switch1からSwitch2)側 → DP
+        
+        Switch1のF0/2 → RP
+        Switch1のF0/1 → DP
 
-      ・Switch2
-        (Switch2からSwitch1)側 → RP
-        (Switch2からSwitch4)側 → BP
+        Switch1のF/01 → RP
+        Switch2のF0/2→ BP
 
-      ・Switch3
-        (Switch3からSwitch1)側 → DP
-        (Switch3からSwitch4)側 → DP
+        Switch3のE0/1 → DP
+        Switch3のE0/2→ DP
 
         ・Switch4
-        (Switch4からSwitch3)側 → RP
-        (Switch4からSwitch2)側 → DP
+        Switch4のE0/2 → RP
+        Switch4のE0/1 → DP
